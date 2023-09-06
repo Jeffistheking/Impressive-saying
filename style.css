@@ -1,13 +1,22 @@
-.fade-in {
-  animation: fadeIn 6s;
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(view3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
 }
